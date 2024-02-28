@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 
+// Styles
 import { ImcPacientes } from './pages/ImcPacientes.tsx';
 import { AddPacientes } from './pages/AddPaciente.tsx';
+
+// Json
+import pacientes from './data/pacientes.json'
 
 // Definindo a interface para um paciente
 interface Paciente {
@@ -12,44 +16,7 @@ interface Paciente {
   imc: string;
 }
 
-// Definindo a lista de pacientes com o tipo Paciente[]
-const pacientes: Paciente[] = [
-  {
-    nome: 'Paulo',
-    peso: 100,
-    altura: 2.00,
-    gordura: 10,
-    imc: '0',
-  },
-  {
-    nome: 'João',
-    peso: 80,
-    altura: 1.72,
-    gordura: 40,
-    imc: '0',
-  },
-  {
-    nome: 'Erica',
-    peso: 54,
-    altura: 1.64,
-    gordura: 14,
-    imc: '0',
-  },
-  {
-    nome: 'Douglas',
-    peso: 85,
-    altura: 1.73,
-    gordura: 24,
-    imc: '0',
-  },
-  {
-    nome: 'Tatiana',
-    peso: 46,
-    altura: 1.55,
-    gordura: 19,
-    imc: '0',
-  },
-];
+
 export const App: React.FC = () => {
   // Inicializa pacientesList com a lista pré-definida de pacientes
   const [pacientesList, setPacientesList] = useState<Paciente[]>(pacientes);
