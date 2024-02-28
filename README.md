@@ -30,6 +30,10 @@ Para executar este projeto localmente, siga os passos abaixo:
 4. Execute o projeto com `npm start` ou `yarn start`.
 5. A aplicação estará disponível em `http://localhost:3000`.
 
+Para acessar este projeto, sem necessidade de downloads:
+
+- `https://imersao-javascript.vercel.app`
+
 ## Contribuições
 
 Contribuições são sempre bem-vindas! Se você tem alguma sugestão para melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
