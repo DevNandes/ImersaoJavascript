@@ -16,7 +16,6 @@ interface Paciente {
   imc: string;
 }
 
-
 export const App: React.FC = () => {
   // Inicializa pacientesList com a lista pré-definida de pacientes
   const [pacientesList, setPacientesList] = useState<Paciente[]>(pacientes);
