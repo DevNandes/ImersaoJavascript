@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Projeto Aparecida Nutrição em TSX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+Este projeto foi desenvolvido como parte de uma palestra para uma imersão em desenvolvimento web, com o objetivo de demonstrar diferentes formas de solucionar problemas utilizando linguagens e tecnologias diversas. O foco desta aplicação é introduzir o TypeScript junto ao React (TSX) para os alunos, mostrando que, além do JavaScript puro, existem outras abordagens eficazes para a construção de aplicações web.
 
-In the project directory, you can run:
+A escolha do TSX para este projeto visa oferecer uma experiência de desenvolvimento enriquecida com tipagem estática, trazendo benefícios como segurança de tipo, prevenção de erros em tempo de desenvolvimento e melhor suporte ao autocompletar, facilitando o processo de desenvolvimento e manutenção do código.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto "Aparecida Nutrição" permite aos usuários:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Visualizar uma lista de pacientes e seus respectivos dados nutricionais.
+- Adicionar novos pacientes à lista, inserindo informações como nome, peso, altura e percentual de gordura.
+- Calcular automaticamente o Índice de Massa Corporal (IMC) dos pacientes baseado nos dados fornecidos.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Uma biblioteca JavaScript para construir interfaces de usuário.
+- **TypeScript**: Uma linguagem de programação que estende JavaScript adicionando tipagem estática.
+- **TSX**: Uma extensão de sintaxe para TypeScript, permitindo a escrita de elementos JSX dentro do código TypeScript.
 
-### `npm run build`
+## Como Executar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para executar este projeto localmente, siga os passos abaixo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório para sua máquina local.
+2. Navegue até o diretório do projeto via terminal.
+3. Instale as dependências com o comando `npm install` ou `yarn install`.
+4. Execute o projeto com `npm start` ou `yarn start`.
+5. A aplicação estará disponível em `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribuições
 
-### `npm run eject`
+Contribuições são sempre bem-vindas! Se você tem alguma sugestão para melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Licença
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por DevNandes
